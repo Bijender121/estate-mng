@@ -22,7 +22,7 @@ SITE_NAME = getenv("SITE_NAME", "Estate Management API")
 
 SECRET_KEY = getenv("DJANGO_SECRET_KEY","v_EETA21Q5X7u4B9rcQYq40qkSE2652vNwZ_xU6qyyFMJGlwwMM")
 
-
+CSRF_TRUSTED_ORIGINS = ["http://localhost:8080"]
 
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "0.0.0.0"]
